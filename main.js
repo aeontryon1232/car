@@ -63,7 +63,12 @@ function my_keydown(e)
 			console.log("right");
 		}
 		
-		
+		if(keyPressed == '90')
+            {
+                room_two();
+                console.log("z");
+            }
+
 }
 window.addEventListener("keydown", my_keydown);
 function up()
@@ -116,4 +121,12 @@ function right()
 		uploadgreencar();
 		
 	}
+}
+
+
+function room_two(){
+    if(greencar_x = 100)
+    {
+        window.location="https://aeontryon1232.github.io/box/"
+    }
 }
